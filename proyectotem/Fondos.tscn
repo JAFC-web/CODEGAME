@@ -407,3 +407,5 @@ position = Vector2(-224, -968)
 
 [node name="coin4" parent="." instance=ExtResource("6_2d4eh")]
 position = Vector2(-216, -928)
+
+[connection signal="body_entered" from="reset" to="CharacterBody2D" method="_on_reset_body_entered"]

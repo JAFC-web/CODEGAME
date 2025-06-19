@@ -36,3 +36,5 @@ func _physics_process(delta):
 			$AnimationPlayer.play("idle")
 	
 	move_and_slide()
+func _on_reset_body_entered(body: Node2D) -> void:
+	get_tree().reload_current_scene()
