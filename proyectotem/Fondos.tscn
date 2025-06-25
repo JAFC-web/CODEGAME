@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=4 uid="uid://br78kc8h7740f"]
+[gd_scene load_steps=18 format=4 uid="uid://br78kc8h7740f"]
 
 [ext_resource type="Texture2D" uid="uid://jy2xv0vr8631" path="res://background/background_layer_1.png" id="1_6rb6l"]
 [ext_resource type="Texture2D" uid="uid://ddbvkeduwwb1q" path="res://background/background_layer_2.png" id="2_mnxjo"]
@@ -6,7 +6,6 @@
 [ext_resource type="Texture2D" uid="uid://c11otbbgivag3" path="res://oak_woods_tileset.png" id="4_o3pr0"]
 [ext_resource type="PackedScene" uid="uid://swy5wwybnllh" path="res://personaje.tscn" id="5_2d4eh"]
 [ext_resource type="PackedScene" uid="uid://dx31a4dvb27te" path="res://coin.tscn" id="6_2d4eh"]
-[ext_resource type="PackedScene" uid="uid://cnoghnmp53qgp" path="res://estructura.tscn" id="7_ha1qv"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2d4eh"]
 texture = ExtResource("1_6rb6l")
@@ -408,9 +407,5 @@ position = Vector2(-224, -968)
 
 [node name="coin4" parent="." instance=ExtResource("6_2d4eh")]
 position = Vector2(-216, -928)
-
-[node name="estructura" parent="." instance=ExtResource("7_ha1qv")]
-position = Vector2(-46.5, -895.75)
-scale = Vector2(0.55, 1.39583)
 
 [connection signal="body_entered" from="reset" to="CharacterBody2D" method="_on_reset_body_entered"]
