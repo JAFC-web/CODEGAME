@@ -1,18 +1,20 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1750872786
+::res://::1750904152
 canvas_layer.gd::GDScript/GDScript::9125595987443252425::1750701470::0::1::::<>CanvasLayer<><>0<>0<><>::
 coin3_16x16.png::CompressedTexture2D/CompressedTexture2D::2978773696411935876::1750701470::1750701587::1::::<><><>0<>0<>e4ce1594e114eb712d704fe46e4b6f02<>res://.godot/imported/coin3_16x16.png-15d2a79da42a6c42de0ee55f4e7f9048.ctex::
 coin.tscn::PackedScene/PackedScene::8832988202447796306::1750701470::0::1::::<><><>0<>0<><>::uid://cpdly0msxjylr::::res://coin_2d.gd<>uid://bio675rueucgq::::res://coin3_16x16.png
 coin_2d.gd::GDScript/GDScript::5832579233663377631::1750701470::0::1::::<>Area2D<><>0<>0<><>::
 collision_shape_2d.gd::GDScript/GDScript::2600601346832478073::1750701470::0::1::::<>CollisionShape2D<><>0<>0<><>::
-estructura.tscn::PackedScene::5714575127815338555::1750817366::0::1::::<><><>0<>0<><>::uid://c11otbbgivag3::::res://oak_woods_tileset.png
-Fondos.tscn::PackedScene::3647712788757255531::1750817365::0::1::::<><><>0<>0<><>::uid://jy2xv0vr8631::::res://background/background_layer_1.png<>uid://ddbvkeduwwb1q::::res://background/background_layer_2.png<>uid://7uggedipu2qd::::res://background/background_layer_3.png<>uid://c11otbbgivag3::::res://oak_woods_tileset.png<>uid://swy5wwybnllh::::res://personaje.tscn<>uid://dx31a4dvb27te::::res://coin.tscn
+estructura.tscn::PackedScene::5714575127815338555::1750904151::0::1::::<><><>0<>0<><>::uid://c11otbbgivag3::::res://oak_woods_tileset.png
+Fondos.tscn::PackedScene::3647712788757255531::1750904151::0::1::::<><><>0<>0<><>::uid://jy2xv0vr8631::::res://background/background_layer_1.png<>uid://ddbvkeduwwb1q::::res://background/background_layer_2.png<>uid://7uggedipu2qd::::res://background/background_layer_3.png<>uid://c11otbbgivag3::::res://oak_woods_tileset.png<>uid://swy5wwybnllh::::res://personaje.tscn<>uid://dx31a4dvb27te::::res://coin.tscn
 icon.svg::CompressedTexture2D/CompressedTexture2D::2562741416073455827::1750701470::1750701587::1::::<><><>0<>0<>6b1a876a756d5d22ddd862133e4d7ce6<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-lv_2.tscn::PackedScene::6838473547114431622::1750817366::0::1::::<><><>0<>0<><>::uid://cermgb3j28cl::::res://Background layers/Layer_0010_1.png<>uid://470m88r4rtic::::res://Background layers/Layer_0009_2.png<>uid://bov1urjeke50a::::res://Background layers/Layer_0008_3.png<>uid://i72ojag40p3b::::res://Background layers/Layer_0006_4.png<>uid://b0bmxgnj74rjw::::res://Background layers/Layer_0005_5.png<>uid://b2g1iqbi6173h::::res://Background layers/Layer_0003_6.png<>uid://bif6fy3ixyldb::::res://Background layers/Layer_0002_7.png<>uid://dkvv87jrysixd::::res://Background layers/Layer_0001_8.png<>uid://wgs3pj5pftsd::::res://Background layers/Layer_0000_9.png
+lv_2.tscn::PackedScene::6838473547114431622::1750904151::0::1::::<><><>0<>0<><>::uid://cermgb3j28cl::::res://Background layers/Layer_0010_1.png<>uid://470m88r4rtic::::res://Background layers/Layer_0009_2.png<>uid://bov1urjeke50a::::res://Background layers/Layer_0008_3.png<>uid://i72ojag40p3b::::res://Background layers/Layer_0006_4.png<>uid://b0bmxgnj74rjw::::res://Background layers/Layer_0005_5.png<>uid://b2g1iqbi6173h::::res://Background layers/Layer_0003_6.png<>uid://bif6fy3ixyldb::::res://Background layers/Layer_0002_7.png<>uid://dkvv87jrysixd::::res://Background layers/Layer_0001_8.png<>uid://wgs3pj5pftsd::::res://Background layers/Layer_0000_9.png<>uid://swy5wwybnllh::::res://personaje.tscn<>uid://dyatr4m1f3lm5::::res://plataformalv2_1.tscn
 node_2d.tscn::PackedScene/PackedScene::145815637992651742::1750701470::0::1::::<><><>0<>0<><>::
 oak_woods_tileset.png::CompressedTexture2D/CompressedTexture2D::6652309145915805200::1750701470::1750701587::1::::<><><>0<>0<>82f6bee79badfd50ef2a6a746472a723<>res://.godot/imported/oak_woods_tileset.png-847d140a963e4b4e84c92f916786151b.ctex::
-personaje.gd::GDScript/GDScript::2135547131670487455::1750701470::0::1::::<>CharacterBody2D<><>0<>0<><>::
-personaje.tscn::PackedScene::1310327468309150881::1750817365::0::1::::<><><>0<>0<><>::uid://ct4op5h0fx2wq::::res://character/char_blue.png<>uid://5oqfcsf33oe6::::res://personaje.gd<>uid://d3arh567p7axl::::res://canvas_layer.gd<>uid://bio675rueucgq::::res://coin3_16x16.png
+personaje.gd::GDScript::2135547131670487455::1750903406::0::1::::<>CharacterBody2D<><>0<>0<><>::
+personaje.tscn::PackedScene::1310327468309150881::1750904151::0::1::::<><><>0<>0<><>::uid://ct4op5h0fx2wq::::res://character/char_blue.png<>uid://5oqfcsf33oe6::::res://personaje.gd<>uid://d3arh567p7axl::::res://canvas_layer.gd<>uid://bio675rueucgq::::res://coin3_16x16.png
+plataformalv2_1.tscn::PackedScene::8844979822654949970::1750904152::0::1::::<><><>0<>0<><>::uid://b07h56212uuae::::res://plataformalv2.gd<>uid://c11otbbgivag3::::res://oak_woods_tileset.png
+plataformalv2.gd::GDScript::4207682126692120612::1750903410::0::1::::<>Area2D<><>0<>0<><>::
 ::res://background/::1750701587
 background_layer_1.png::CompressedTexture2D/CompressedTexture2D::682926233492892102::1750701470::1750701587::1::::<><><>0<>0<>cad3f60c0532a37b88135318ec68a300<>res://.godot/imported/background_layer_1.png-70e54ac0f9f8430c9e203ae402ff05e0.ctex::
 background_layer_2.png::CompressedTexture2D/CompressedTexture2D::7373186090201393240::1750701470::1750701587::1::::<><><>0<>0<>008519b1ac7b041d7cbf045599a3a3c6<>res://.godot/imported/background_layer_2.png-82d739bf9a03eba75e570231552acedc.ctex::
@@ -32,7 +34,7 @@ Layer_0010_1.png::CompressedTexture2D/CompressedTexture2D::149689134666416123::1
 Layer_0011_0.png::CompressedTexture2D/CompressedTexture2D::7885344605749374150::1575073221::1750703867::1::::<><><>0<>0<>bbd697d2c3bf8a5d3b5d09242bb32724<>res://.godot/imported/Layer_0011_0.png-00bcb5c861faed4e0e2b25d76fb446b5.ctex::
 ::res://character/::1750701587
 char_blue.png::CompressedTexture2D/CompressedTexture2D::6167174763841493328::1750701470::1750701587::1::::<><><>0<>0<>c7f87915c33930f09eed45ca1cba71a3<>res://.godot/imported/char_blue.png-936db0a05a131c96bcb3d9306bd04bc2.ctex::
-::res://decorations/::1750701587
+::res://decorations/::1750904345
 fence_1.png::CompressedTexture2D/CompressedTexture2D::9002806440465727656::1750701470::1750701587::1::::<><><>0<>0<>96d90f93e16658fdfda402bc25f2512d<>res://.godot/imported/fence_1.png-20f7e2e6ba29d63840f8dd1bfa665280.ctex::
 fence_2.png::CompressedTexture2D/CompressedTexture2D::7428225770267285946::1750701470::1750701587::1::::<><><>0<>0<>92dbc35c9dd70be6477e4c31d39a0065<>res://.godot/imported/fence_2.png-d23da386686a0b1a3b8d8a9568ad452f.ctex::
 grass_1.png::CompressedTexture2D/CompressedTexture2D::5220601322398072503::1750701470::1750701587::1::::<><><>0<>0<>4d696684bf9a1ea1e86551784c6c47c8<>res://.godot/imported/grass_1.png-aafd5f8d6f259ed5a22f367a6bc0feb3.ctex::
@@ -45,3 +47,4 @@ rock_3.png::CompressedTexture2D/CompressedTexture2D::818194984730213538::1750701
 shop.png::CompressedTexture2D/CompressedTexture2D::8089333280283518065::1750701470::1750701587::1::::<><><>0<>0<>c3813cb271a6f0eb07bbea7702c252d7<>res://.godot/imported/shop.png-378a8e9ddf1a1cde5ba76c8dc6226a1a.ctex::
 shop_anim.png::CompressedTexture2D/CompressedTexture2D::1859695616510857203::1750701470::1750701587::1::::<><><>0<>0<>46e0d644617282e0b84e94f6ab7e119b<>res://.godot/imported/shop_anim.png-959c07487f5d364a59e2d8921d864eac.ctex::
 sign.png::CompressedTexture2D/CompressedTexture2D::2808332714692481576::1750701470::1750701587::1::::<><><>0<>0<>f0d9545a396d3c6790bfdbd68e8957aa<>res://.godot/imported/sign.png-14d741a3aa551dce047d7e0ee258541b.ctex::
+spike.png::CompressedTexture2D::5073015311027372566::1750904345::1750904346::1::::<><><>0<>0<>fd527f9af391d8e17ba1b62183489ca5<>res://.godot/imported/spike.png-781dc25dda0ddc4314308535eb0cf3e2.ctex::

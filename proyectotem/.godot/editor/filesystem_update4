@@ -1,4 +1,9 @@
-res://lv_2.tscn
 res://Fondos.tscn
 res://personaje.tscn
+res://lv_2.tscn
 res://estructura.tscn
+res://plataforma_lv_2.tscn
+res://personaje.gd
+res://plataformalv2_1.tscn
+res://plataformalv2.gd
+res://pinchos.tscn
