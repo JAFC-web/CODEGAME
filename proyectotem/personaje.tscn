@@ -1,9 +1,8 @@
-[gd_scene load_steps=13 format=3 uid="uid://swy5wwybnllh"]
+[gd_scene load_steps=12 format=3 uid="uid://swy5wwybnllh"]
 
 [ext_resource type="Texture2D" uid="uid://ct4op5h0fx2wq" path="res://character/char_blue.png" id="1_4e5bt"]
 [ext_resource type="Script" uid="uid://5oqfcsf33oe6" path="res://personaje.gd" id="1_ltgau"]
-[ext_resource type="Script" uid="uid://d3arh567p7axl" path="res://canvas_layer.gd" id="3_gj0cs"]
-[ext_resource type="Texture2D" uid="uid://bio675rueucgq" path="res://coin3_16x16.png" id="4_ck3sb"]
+[ext_resource type="PackedScene" uid="uid://mbadjb1rpty8" path="res://hud.tscn" id="3_yppqc"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ltgau"]
 size = Vector2(16, 32)
@@ -215,6 +214,7 @@ _data = {
 }
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
+position = Vector2(12, -8)
 script = ExtResource("1_ltgau")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -235,24 +235,20 @@ offset = Vector2(0, -60)
 ignore_rotation = false
 zoom = Vector2(4, 4)
 limit_top = -100
-limit_bottom = 50
+limit_bottom = 100
 editor_draw_limits = true
 
-[node name="CanvasLayer" type="CanvasLayer" parent="Camera2D"]
-layer = 5
-follow_viewport_enabled = true
-script = ExtResource("3_gj0cs")
-
-[node name="Sprite2D2" type="Sprite2D" parent="Camera2D/CanvasLayer"]
-position = Vector2(-134, -131)
-texture = ExtResource("4_ck3sb")
-hframes = 14
-
-[node name="coin" type="Label" parent="Camera2D/CanvasLayer"]
-offset_left = -129.0
-offset_top = -143.0
-offset_right = -89.0
-offset_bottom = -120.0
+[node name="HUD" parent="Camera2D" instance=ExtResource("3_yppqc")]
+layout_direction = 4
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -9.0
+offset_top = 60.0
+offset_right = -9.0
+offset_bottom = 60.0
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {

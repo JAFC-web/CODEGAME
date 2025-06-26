@@ -1,9 +1,9 @@
 extends CharacterBody2D
 
 var velocidad = 100
-var brinco = -50
+var brinco = -70
 var gravedad = 100
-
+var point = 0
 func _ready():
 	add_to_group("jugador")
 
@@ -38,3 +38,14 @@ func _physics_process(delta):
 	move_and_slide()
 func _on_reset_body_entered(body: Node2D) -> void:
 	get_tree().reload_current_scene()
+
+
+
+func _on_door_body_entered(body: Node2D) -> void:
+	get_tree().change_scene_to_file("res://lv_2.tscn")
+	
+	pass # Replace with function body.
+
+func Pickup_coin():
+	point+= 1
+	get_node("Camera2D/HUD").update_count(point)
