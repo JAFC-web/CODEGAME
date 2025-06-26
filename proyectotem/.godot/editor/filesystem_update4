@@ -4,3 +4,5 @@ res://lv_2.tscn
 res://estructura.tscn
 res://plataformalv2_1.tscn
 res://personaje.gd
+res://collision_shape_2d.gd
+res://plataformalv2.gd

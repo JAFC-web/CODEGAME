@@ -299,37 +299,37 @@ tile_map_data = PackedByteArray("AAC//w0AAQAAAAAAAAC//w4AAQAAAAEAAADA/w0AAQABAAA
 tile_set = SubResource("TileSet_8m2ov")
 
 [node name="coin" parent="." instance=ExtResource("13_mri4p")]
-position = Vector2(-366, 73)
+position = Vector2(-388, 76)
 
 [node name="coin2" parent="." instance=ExtResource("13_mri4p")]
-position = Vector2(-261, 69)
+position = Vector2(-257, 73)
 
 [node name="coin3" parent="." instance=ExtResource("13_mri4p")]
-position = Vector2(-239, 68)
+position = Vector2(-243, 73)
 
 [node name="coin4" parent="." instance=ExtResource("13_mri4p")]
-position = Vector2(-219, 69)
+position = Vector2(-229, 72)
 
 [node name="coin5" parent="." instance=ExtResource("13_mri4p")]
-position = Vector2(327, 48)
+position = Vector2(43, 105)
 
 [node name="coin6" parent="." instance=ExtResource("13_mri4p")]
-position = Vector2(38, 108)
+position = Vector2(345, 47)
 
 [node name="coin7" parent="." instance=ExtResource("13_mri4p")]
-position = Vector2(344, 48)
+position = Vector2(326, 47)
 
 [node name="coin8" parent="." instance=ExtResource("13_mri4p")]
-position = Vector2(365, 48)
+position = Vector2(364, 46)
 
 [node name="coin9" parent="." instance=ExtResource("13_mri4p")]
-position = Vector2(728, 47)
+position = Vector2(541, 48)
 
 [node name="coin10" parent="." instance=ExtResource("13_mri4p")]
-position = Vector2(542, 49)
+position = Vector2(634, 46)
 
 [node name="coin11" parent="." instance=ExtResource("13_mri4p")]
-position = Vector2(631, 46)
+position = Vector2(728, 47)
 
 [node name="coin12" parent="." instance=ExtResource("13_mri4p")]
-position = Vector2(843, 76)
+position = Vector2(844, 77)
