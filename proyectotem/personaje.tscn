@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://swy5wwybnllh"]
+[gd_scene load_steps=13 format=3 uid="uid://swy5wwybnllh"]
 
 [ext_resource type="Texture2D" uid="uid://ct4op5h0fx2wq" path="res://character/char_blue.png" id="1_4e5bt"]
 [ext_resource type="Script" uid="uid://5oqfcsf33oe6" path="res://personaje.gd" id="1_ltgau"]
@@ -213,6 +213,9 @@ _data = {
 &"salto": SubResource("Animation_cx4ix")
 }
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yppqc"]
+size = Vector2(9, 4)
+
 [node name="CharacterBody2D" type="CharacterBody2D"]
 position = Vector2(12, -8)
 script = ExtResource("1_ltgau")
@@ -254,3 +257,12 @@ grow_vertical = 2
 libraries = {
 &"": SubResource("AnimationLibrary_gj0cs")
 }
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(2, 3)
+shape = SubResource("RectangleShape2D_yppqc")
+debug_color = Color(0.967589, 0, 0.4733, 0.42)
+
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

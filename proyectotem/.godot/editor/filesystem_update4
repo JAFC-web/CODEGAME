@@ -1,8 +1,11 @@
 res://Fondos.tscn
-res://personaje.tscn
-res://lv_2.tscn
 res://estructura.tscn
+res://personaje.tscn
 res://plataformalv2_1.tscn
+res://lv_2.tscn
 res://personaje.gd
-res://collision_shape_2d.gd
-res://plataformalv2.gd
+res://picos.tscn
+res://canvas_layer.gd
+res://picos.gd
+res://picos2.gd
+res://fin.tscn

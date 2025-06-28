@@ -41,6 +41,7 @@ func _on_reset_body_entered(body: Node2D) -> void:
 
 
 
+
 func _on_door_body_entered(body: Node2D) -> void:
 	get_tree().change_scene_to_file("res://lv_2.tscn")
 	
@@ -49,3 +50,14 @@ func _on_door_body_entered(body: Node2D) -> void:
 func Pickup_coin():
 	point+= 1
 	get_node("Camera2D/HUD").update_count(point)
+
+
+func _on_picos_2_body_entered(body: Node2D) -> void:
+	get_tree().change_scene_to_file("res://lv_2.tscn")
+	pass # Replace with function body.
+
+
+
+func _on_door_2_body_entered(body: Node2D) -> void:
+	get_tree().change_scene_to_file("res://fin.tscn")
+	pass # Replace with function body.
