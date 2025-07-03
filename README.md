@@ -1,8 +1,8 @@
 # 🎮 Koinhantā
 
 ## -Integrantes del Equipo-
--Jose Alonso Filomeo Crespo.
--Fernando Josue Plantillas jimenez.
+-Jose Alonso Filomeo Crespo.  
+-Fernando Josue Plantillas jimenez.  
 
 
 -Descripción breve del juego y sus mecánicas-
