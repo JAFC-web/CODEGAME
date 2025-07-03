@@ -1,4 +1,4 @@
-#🎮 Koinhantā
+# 🎮 Koinhantā
 
 -Integrantes del Equipo-
 Jose Alonso Filomeo Crespo
