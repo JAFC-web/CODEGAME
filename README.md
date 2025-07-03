@@ -1,5 +1,4 @@
-# CODEGAME
-Nombre del juego: Koinhantā
+#🎮 Koinhantā
 
 -Integrantes del Equipo-
 Jose Alonso Filomeo Crespo
