@@ -2,7 +2,7 @@
 Nombre del juego: Koinhantā
 
 -Integrantes del Equipo-
-Jose Alonso Filomeo Crespo
+Jose Alonso Filomeo Crespo -m
 Fernando Josue Plantillas jimenez
 
 
