@@ -6,7 +6,7 @@
 
 
 ## -Descripción breve del juego y sus mecánicas-
-El personaje tiene que recolectar monedas por el mapa, la cual contiene obstaculos, el jugador tiene que saltar esquivar obstaculos fragiles para no caer o no morir  
+El personaje tiene que recolectar monedas por el mapa, la cual contiene obstaculos, el jugador tiene que saltar esquivar obstaculos fragiles para no caer o no morir
 con los picos del mapa, el nivel cuenta con 2 mapas.  
 
 
